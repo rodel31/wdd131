@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Your Name. This page demonstrates a basic home page layout with dynamic content.">
+    <meta name="author" content="Your Name">
+    <title>WDD 131 - Dynamic Web Fundamentals - Rodel I. Ramos</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 - Ramos</h1>
+    <header>
+        <h1>Welcome to My WDD 131 Homepage</h1>
+        <nav>
+            <ul>
+                <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/" target="_blank">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/ot/isa/55?lang=eng&id=p8#p9" target="_blank">Scripture</a></li>
+                <li><a href="#" target="_blank">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <img src="images/myImage.jpg" alt="My Image" />
+            <p>Hello! I am a web development student learning how to create dynamic and responsive web pages. Here are some links I find useful:</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>My Projects</h2>
+            <img src="images/example.jpg" alt="My Project" />
+            <p>Check out some of my recent projects:</p>
+            <ul>
+                <li><a href="#">Project 1</a></li>
+                <li><a href="#">Project 2</a></li>
+                <li><a href="#">Project 3</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Rodel I. Ramos. Located in Tarlac, Philippines.</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
