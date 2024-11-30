@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Picture Album</title>
+    <!-- Link CSS Files -->
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css" media="(min-width: 768px)">
+    <!-- Link JavaScript -->
+    <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Picture Album</h1>
+        <nav>
+            <button id="hamburger" aria-label="Open Menu">☰</button>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Temple Album</h2>
+        <section class="gallery">
+            <!-- Placeholder temple images -->
+            <figure>
+                <img src="images/large/Philippines_manila_temple.jpg" alt="Temple 1">
+                <figcaption>Philippines manila temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/large/Oakland-Temple.jpg" alt="Temple 1">
+                <figcaption>Oakland-Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/large/bountiful-temple.jpg" alt="Temple 1">
+                <figcaption>bountiful-Utah-temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/large/praia_cape_verde_temple-main.jpeg" alt="Temple 1">
+                <figcaption>praia_cape_verde_temple-main</figcaption>
+            </figure>
+            <figure>
+                <img src="images/large/Philippines_manila_temple.jpg" alt="Temple 1">
+                <figcaption>Philippines manila temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/large/Oakland-Temple.jpg" alt="Temple 1">
+                <figcaption>Oakland-Temple</figcaption>
+            </figure>
+            <!-- Add 8 more <figure> elements -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 &#128187<span id="year"></span> | Rodel I. Ramos &#128187 Philippines</p>
+        <p>Last updated: <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>
