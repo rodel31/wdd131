@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: auto;
+}
+a{
+    color: whitesmoke;
+}
+ul li:hover{
+    background-color: rgb(10, 135, 244);
+    color: whitesmoke;
+    padding: 3px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 800px;
+    margin: 0 auto;
+}
+figure, img{
+    max-width: 200px;
+}
