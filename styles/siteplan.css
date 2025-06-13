@@ -1,0 +1,146 @@
+/* Base styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfb;
+  color: #333;
+  line-height: 1.6;
+}
+
+header, nav, main, footer {
+  padding: 1rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+  color: #2E5E4E;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #2E5E4E;
+}
+
+button, .btn {
+  background-color: #FFD166;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  color: #2E5E4E;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+button:hover, .btn:hover {
+  background-color: #e6b84f;
+}
+
+/* Layout */
+
+header {
+  background-color: #2E5E4E;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #2E5E4E;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  margin: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+/* Hero Button */
+.hero-button {
+  display: inline-block;
+  background-color: #FFD166;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 1rem;
+  color: #2E5E4E;
+  font-size: 1rem;
+}
+
+/* Responsive Typography */
+.about-text {
+  font-size: 1rem;
+}
+
+.question {
+  font-weight: bold;
+  color: #2E5E4E;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: #f2f2f2;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Wireframe Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+/* Color Indicators (if included visually) */
+.color-box {
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  nav {
+    justify-content: flex-start;
+    padding-left: 2rem;
+  }
+
+  main {
+    padding: 3rem;
+  }
+
+  .question {
+    font-size: 1.5rem;
+  }
+}
