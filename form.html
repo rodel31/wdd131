@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Review Form</title>
+  <link rel="stylesheet" href="styles/form.css" />
+  
+</head>
+<body>
+
+    <h1>Product Review Form</h1>
+
+    <form action="review.html" method="get">
+        <label for="productName">Product Name:</label>
+        <select id="productName" name="productName" required>
+        <option value="" disabled selected>Select a Product ...</option>
+        <!-- JavaScript will populate options here -->
+        </select>
+
+        <fieldset>
+        <legend>Overall Rating:</legend>
+        <label><input type="radio" name="rating" id="star1" value="1" required />☆</label>
+        <label><input type="radio" name="rating" id="star2" value="2" />☆☆</label>
+        <label><input type="radio" name="rating" id="star3" value="3" />☆☆☆</label>
+        <label><input type="radio" name="rating" id="star4" value="4" />☆☆☆☆</label>
+        <label><input type="radio" name="rating" id="star5" value="5" />☆☆☆☆☆</label>
+        </fieldset>
+
+        <label for="installDate">Date of Installation:</label>
+        <input type="date" id="installDate" name="installDate" required />
+
+        <fieldset>
+        <legend>Useful Features:</legend>
+        <label><input type="checkbox" name="features" value="battery" id="battery" /> Long battery life</label><br/>
+        <label><input type="checkbox" name="features" value="durable" id="durable" /> Durable</label><br/>
+        <label><input type="checkbox" name="features" value="easy" id="easy" /> Easy to use</label>
+        </fieldset>
+
+        <label for="review">Written Review:</label>
+        <textarea id="review" name="review" rows="4" cols="50"></textarea>
+
+        <label for="username">Your Name:</label>
+        <input type="text" id="username" name="username" />
+
+        <input type="submit" value="Submit Review" />
+    </form>
+
+    <footer>
+        <p>&copy;2024 &#128187<span id="year"></span> | Rodel I. Ramos &#128187 Philippines</p>
+        <p>Last updated: <span id="last-modified"></span></p>
+    </footer>
+
+    <script src="scripts/form.js"></script>
+</body>
+</html>

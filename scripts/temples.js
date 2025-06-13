@@ -6,4 +6,4 @@ document.getElementById('hamburger').addEventListener('click', () => {
 
 // Footer Date
 document.getElementById('year').textContent = new Date().getFullYear();
-document.getElementById('last-modified').textContent = document.lastModified;
+document.getElementById('last-modified').textContent = document.lastModified; 
