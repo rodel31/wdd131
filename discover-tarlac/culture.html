@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Culture | Discover Tarlac</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scripts.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>DISCOVER TARLAC</h1>
+    <p>Heart of Central Luzon</p>
+  </header>
+   <ul class="nav">
+    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+    <li><a href="attractions.html"><i class="fas fa-map-marked-alt"></i> Attractions</a></li>
+    <li><a href="culture.html"><i class="fas fa-drum"></i> Culture</a></li>
+  </ul>
+  <main>
+    <section>
+      <h2>Tell Us Your Favorite!</h2>
+      <form id="cultureForm">
+        <label for="favorite">What is your favorite Tarlac food or festival?</label>
+        <input type="text" id="favorite" name="favorite" required>
+        <button type="submit" class="button">Submit</button>
+      </form>
+      <p id="formMessage"></p>
+      <p>Total Submissions: <span id="submissionCount">0</span></p>
+    </section>
+    <section>
+      <button onclick="window.print()" class="button">Print or Save as PDF</button>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Rodel I. Ramos. Located in Tarlac, Philippines. <a href="references.html">References</a></p>
+  </footer>
+</body>
+</html>

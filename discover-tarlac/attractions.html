@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attractions | Discover Tarlac</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scripts.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>DISCOVER TARLAC</h1>
+    <p>Heart of Central Luzon</p>
+  </header>
+   <ul class="nav">
+    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+    <li><a href="attractions.html"><i class="fas fa-map-marked-alt"></i> Attractions</a></li>
+    <li><a href="culture.html"><i class="fas fa-drum"></i> Culture</a></li>
+  </ul>
+  <main>
+    <section>
+      <h2>Top Tourist Attractions in Tarlac</h2>
+      <div id="attractions-list" class="gallery"></div>
+    </section>
+    <section>
+      <h2>Map of Tarlac</h2>
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15440.40544667488!2d120.59799709458577!3d15.480112718572934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397242d20218b5b%3A0x6336b3c9a06f8b77!2sTarlac!5e0!3m2!1sen!2sph!4v1687200000000!5m2!1sen!2sph" 
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </section>
+    <section>
+      <button onclick="window.print()" class="button">Print or Save as PDF</button>
+    </section>
+  </main>
+  <footer>
+    <p><span id="visit-count"></span></p>
+    <p>&copy; 2024 Rodel I. Ramos. Located in Tarlac, Philippines. <a href="references.html">References</a></p>
+  </footer>
+</body>
+</html>
