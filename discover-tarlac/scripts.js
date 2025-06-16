@@ -12,7 +12,7 @@ const attractions = [
   },
   {
     name: "Aquino Center Museum",
-    img: "images/aquino.jpg",
+    img: "../images/aquino.jpg",
     description: "Dedicated to Ninoy and Cory Aquino's legacy."
   }
 ];
