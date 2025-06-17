@@ -162,15 +162,8 @@ footer a {
 }
 
 @media (max-width: 768px) {
-  header{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-
-  }
   .hamburger {
-    display: flex;
+    display: block;
     color: black;
     background-color: #c0e8bc;
   }
