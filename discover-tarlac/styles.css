@@ -146,3 +146,52 @@ footer a {
     margin: 1rem 0;
   }
 }
+
+/* Add this to styles.css if not already present */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+  .hamburger {
+    display: flex;
+    color: black;
+    background-color: #c0e8bc;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .nav.nav-open {
+    display: flex;
+  }
+
+  .nav li {
+    margin: 0.5rem 0;
+  }
+}
+
